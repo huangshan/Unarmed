@@ -1,0 +1,28 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+.widthpercent30{
+  width: 30%;
+}
+.widthpercent50{
+  width: 50%;
+}
+.widthpercent60{
+  width: 60%;
+}
+.flex{
+  margin-top: 25px;
+  width:100%;
+  text-align: center;
+}
+.flex-item{
+  width: 50%;
+  float: left;
+  text-align: center;
+}

@@ -1,0 +1,5 @@
+@import "../common/lib/weui.wxss";
+
+.page-body{
+  width: 100%;
+}

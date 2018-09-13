@@ -1,0 +1,46 @@
+<!--pages/detail/detail.wxml-->
+<view class='diary'>
+  <view class='diary-info'>2018-09-07 8:00-8:36 \n
+  重庆体育公园
+  </view>
+
+  <view class='diary-title'>拉力及基础训练</view>
+
+  <view class='diary-group'>
+    <text class='diary-group-name'>热身组：</text>
+    <view class='diary-group-content'>
+      <text>跳绳 5min
+      关节热身、肩袖肌肉热身 8min
+      水平引体向上 10个
+      俯卧撑 20个
+      双杠曲臂撑 25个
+      </text>
+    </view>
+  </view>
+
+  <view class='diary-group'>
+    <text class='diary-group-name'>正式组：</text>
+    <view class='diary-group-content'>
+      <text>辅助单手引体向上(轻，每侧) 1×4
+      辅助单手引体向上(中，每侧) 1×4
+      单手引体向上(每侧) 4×2
+      </text>
+    </view>
+  </view>
+
+  <view class='diary-group'>
+    <text class='diary-group-name'>辅助训练：</text>
+    <view class='diary-group-content'>
+      <text>拉力肌群拉伸
+      股后肌群筋膜放松
+      </text>
+    </view>
+  </view>
+
+  <view class='diary-group'>
+    <text class='diary-group-name'>心得：</text>
+    <view class='diary-group-content'>
+      <text>点击工具上的编译按钮，可以在工具的左侧模拟器界面看到这个小程序的表现，也可以点击预览按钮，通过微信的扫一扫在手机上体验你的第一个小程序。    </text>
+    </view>
+  </view>
+</view>

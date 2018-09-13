@@ -1,0 +1,22 @@
+<view class='container'>
+  <view class='index-hd'>
+      <image class="index-logo" src="../../image/tushou2.png"></image>
+      <view class='index-desc'>
+       在这里记录下你的徒手点滴
+      </view>
+      <view class="index-desc">
+      徒手，唯有坚持
+      </view>      
+  </view>
+  <view class='mainnav'>
+    <navigator class='mainnav-primary' url='../write/write'>写日记</navigator>
+    <navigator url='../warmup/warmup'>热身</navigator>
+    <navigator url='../formalgroup/formalgroup'>正式组</navigator>
+    <navigator url='../additional/additional'>辅助</navigator>
+    <navigator url='../diaries/diaries'>我的日记</navigator>
+    <navigator url='../detail/detail'>日记</navigator>
+  </view>
+  <view class='copyright'>
+  徒手日记 版权所有
+  </view>
+</view>

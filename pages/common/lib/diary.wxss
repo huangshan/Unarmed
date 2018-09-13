@@ -1,0 +1,21 @@
+.diary{
+  margin-left: 40rpx;
+  margin-right: 40rpx;
+}
+.diary-info{
+  font-size: 35rpx;
+}
+.diary-title{
+  font-size: 44rpx;
+  margin-top: 10rpx;
+}
+.diary-group{
+  margin-top: 10rpx;
+  font-size: 40rpx;
+}
+.diary-group-name{
+  font-weight: bold;
+}
+.diary-group-content{
+  padding-left: 60rpx;
+}

@@ -1,0 +1,23 @@
+{
+  "navigationBarTitleText": "我的日记",
+    "tabBar": {
+      "color": "#7A7E83",
+      "selectedColor": "#3cc51f",
+      "borderStyle": "black",
+      "backgroundColor": "#ffffff",
+      "list": [
+        {
+          "pagePath": "page/component/index",
+          "iconPath": "image/icon_component.png",
+          "selectedIconPath": "image/icon_component_HL.png",
+          "text": "组件"
+        },
+        {
+          "pagePath": "page/API/index",
+          "iconPath": "image/icon_API.png",
+          "selectedIconPath": "image/icon_API_HL.png",
+          "text": "接口"
+        }
+      ]
+    }
+}

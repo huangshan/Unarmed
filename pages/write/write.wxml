@@ -1,0 +1,62 @@
+<view class="container">
+  <view class="page-body">
+    <view class="page-section">
+
+      <view class="weui-cells__title">日期</view>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__bd">
+            <picker mode="date" value="{{dateSelected}}" start="{{dateStart}}" end="{{dateEnd}}" bindchange="bindDateChange">
+              <view class="weui-input">{{dateSelected}}</view>
+            </picker>
+          </view>
+        </view>
+      </view>
+
+      <view class="weui-cells__title">开始时间</view>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__bd">
+            <picker mode="time" value="{{timeStart}}" bindchange="bindTimeStartChange">
+              <view class="weui-input">{{timeStart}}</view>
+            </picker>
+          </view>
+        </view>
+      </view>
+      
+      <view class="weui-cells__title">完成时间</view>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <view class="weui-cell__bd">
+            <picker mode="time" value="{{timeEnd}}" bindchange="bindTimeEndChange">
+              <view class="weui-input">{{timeEnd}}</view>
+            </picker>
+          </view>
+        </view>
+      </view>
+      
+      <view class="weui-cells__title">地点</view>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <input class="weui-input" maxlength="50" value="{{address}}" />
+        </view>
+      </view>
+      
+      <view class="weui-cells__title">摘要</view>
+      <view class="weui-cells weui-cells_after-title">
+        <view class="weui-cell weui-cell_input">
+          <input class="weui-input" maxlength="100" value='{{title}}' />
+        </view>
+      </view>
+
+      <view class="flex">
+          <view class=''>
+            <navigator url="../warmup/warmup" hover-class="navigator-hover">
+              <button class='widthpercent60' type="default">下一步</button>
+            </navigator>
+          </view>
+      </view>
+
+    </view>
+  </view>
+</view>

@@ -1,0 +1,10 @@
+/* pages/write/write.wxss */
+@import "../common/lib/weui.wxss";
+
+.picker{
+  padding: 19rpx 26rpx;
+  background-color: #FFFFFF;
+}
+.page-body{
+  width: 100%;
+}
